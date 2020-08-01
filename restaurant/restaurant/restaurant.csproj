@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC8B2917-A332-40A3-BDDB-DF03B95EC3DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>restaurant</RootNamespace>
+    <AssemblyName>restaurant</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RKLib.ExportData">
+      <HintPath>..\ExportDll\RKLib.ExportData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDate.cs" />
+    <Compile Include="frmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccounts.Designer.cs">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdvance.Designer.cs">
+      <DependentUpon>FrmAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCar.Designer.cs">
+      <DependentUpon>FrmCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDriverLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDriverLicense.Designer.cs">
+      <DependentUpon>FrmDriverLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmencouragement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmencouragement.Designer.cs">
+      <DependentUpon>Frmencouragement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHeaithCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHeaithCard.Designer.cs">
+      <DependentUpon>FrmHeaithCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIdentifyCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIdentifyCard.Designer.cs">
+      <DependentUpon>FrmIdentifyCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInsurance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInsurance.Designer.cs">
+      <DependentUpon>FrmInsurance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLabourCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLabourCard.Designer.cs">
+      <DependentUpon>FrmLabourCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewUser.Designer.cs">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonel.Designer.cs">
+      <DependentUpon>frmPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPhoneBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhoneBook.Designer.cs">
+      <DependentUpon>FrmPhoneBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlate.Designer.cs">
+      <DependentUpon>FrmPlate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRent.Designer.cs">
+      <DependentUpon>FrmRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResidence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResidence.Designer.cs">
+      <DependentUpon>FrmResidence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSanctions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSanctions.Designer.cs">
+      <DependentUpon>FrmSanctions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUtility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUtility.Designer.cs">
+      <DependentUpon>FrmUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVacation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVacation.Designer.cs">
+      <DependentUpon>FrmVacation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Increasesalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Increasesalary.Designer.cs">
+      <DependentUpon>Increasesalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAccounts.resx">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdvance.resx">
+      <DependentUpon>FrmAdvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCar.resx">
+      <DependentUpon>FrmCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDriverLicense.resx">
+      <DependentUpon>FrmDriverLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmencouragement.resx">
+      <DependentUpon>Frmencouragement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHeaithCard.resx">
+      <DependentUpon>FrmHeaithCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIdentifyCard.resx">
+      <DependentUpon>FrmIdentifyCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInsurance.resx">
+      <DependentUpon>FrmInsurance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLabourCard.resx">
+      <DependentUpon>FrmLabourCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewUser.resx">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonel.resx">
+      <DependentUpon>frmPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPhoneBook.resx">
+      <DependentUpon>FrmPhoneBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlate.resx">
+      <DependentUpon>FrmPlate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRent.resx">
+      <DependentUpon>FrmRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResidence.resx">
+      <DependentUpon>FrmResidence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSanctions.resx">
+      <DependentUpon>FrmSanctions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUtility.resx">
+      <DependentUpon>FrmUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVacation.resx">
+      <DependentUpon>FrmVacation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Increasesalary.resx">
+      <DependentUpon>Increasesalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\restaurant.COMMON\restaurant.COMMON.csproj">
+      <Project>{b1349921-8cd6-4ce8-abc8-c6387cf3c125}</Project>
+      <Name>restaurant.COMMON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\restaurant.DAL\restaurant.DAL.csproj">
+      <Project>{956a68b1-09c2-4462-8a7d-5404ddfd1fd2}</Project>
+      <Name>restaurant.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Omurice_restaurant_2_by_alainkun_in_Tokyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jakarta-restaurant-cinnamon-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_terraco_-_restaurant.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

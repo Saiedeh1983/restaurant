@@ -1,0 +1,24 @@
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csprojResolveAssemblyReference.cache
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.Properties.Resources.resources
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csproj.GenerateResource.Cache
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe.config
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.pdb
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.exe
+E:\saiedeh\my project\restaurant\29 dec\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.pdb
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe.config
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.pdb
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csprojResolveAssemblyReference.cache
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.Properties.Resources.resources
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csproj.GenerateResource.Cache
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.exe
+E:\saiedeh\my project\restaurant\1 jan\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.pdb
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe.config
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.exe
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\bin\Debug\restaurant.COMMON.pdb
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csprojAssemblyReference.cache
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.Properties.Resources.resources
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.csproj.GenerateResource.cache
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.exe
+E:\2018\E\saiedeh\my old project\restaurant\1 april\restaurant\restaurant.COMMON\obj\Debug\restaurant.COMMON.pdb
